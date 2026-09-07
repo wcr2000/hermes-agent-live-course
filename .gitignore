@@ -1,0 +1,8 @@
+.env
+.env.*
+!.env.example
+.hermes/
+my-work/
+*.log
+__pycache__/
+.DS_Store
