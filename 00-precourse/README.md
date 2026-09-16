@@ -1,30 +1,46 @@
 # เตรียมตัวก่อนเรียน
 [กลับหน้าแรก](../README.md)
 
+ทำให้เสร็จก่อนคืนที่ 1 — เวลาเตรียมเครื่องคือเวลาที่หายไปจาก Workshop
+
 ## Checklist
-- [ ] มีคอมพิวเตอร์ อินเทอร์เน็ต และ Terminal
-- [ ] ดาวน์โหลดและแตกไฟล์ repo แล้ว เปิดไฟล์ Markdown ได้
+- [ ] มีคอมพิวเตอร์ อินเทอร์เน็ตที่เสถียร และใช้ Terminal เบื้องต้นได้
 - [ ] เลือกเครื่องหลักสำหรับเรียน: macOS / Windows ผ่าน WSL2 / Linux
-- [ ] ติดตั้ง Hermes ตามคู่มือทางการที่เชื่อมไว้ด้านล่าง
-- [ ] ตั้งค่า provider/model ของตนและตรวจงบใช้งานกับผู้ให้บริการ
-- [ ] ทดลองสนทนาได้อย่างน้อย 2 รอบ
-- [ ] ให้ผู้ช่วยอ่านไฟล์ข้อมูลจำลองได้จริง
+- [ ] ติดตั้ง VS Code และ Git
+- [ ] ดาวน์โหลดและแตกไฟล์ repo นี้แล้ว (Code → Download ZIP) เปิดไฟล์ Markdown ได้
+- [ ] ติดตั้ง Hermes ตามคู่มือทางการด้านล่าง
+- [ ] มี Account หรือ API Key ของ Model Provider และตรวจงบใช้งานแล้ว
+- [ ] ทดลองสนทนากับ Hermes ได้อย่างน้อย 2 รอบ
+- [ ] ให้ Agent อ่านไฟล์ในโฟลเดอร์ได้จริง
 
 ## เส้นทางติดตั้ง
-ใช้ [Quickstart ทางการ](https://hermes-agent.nousresearch.com/docs/getting-started/quickstart/) สำหรับ macOS/Linux และ [Windows WSL2 Guide](https://hermes-agent.nousresearch.com/docs/user-guide/windows-wsl-quickstart) สำหรับเส้นทาง Windows ที่เสนอให้ใช้ในคลาส
-ผู้สอนต้องซ้อมและตรึงเวอร์ชันก่อนแจกคำสั่งติดตั้งจริงสำหรับรุ่นเรียน ดู [สถานะ](../resources/tested-environment.md)
+- macOS / Linux → [Quickstart ทางการ](https://hermes-agent.nousresearch.com/docs/getting-started/quickstart/)
+- Windows → [Windows WSL2 Guide](https://hermes-agent.nousresearch.com/docs/user-guide/windows-wsl-quickstart)
 
-## หลังติดตั้ง
-เปิด Terminal ที่โฟลเดอร์ repo แล้วรันทีละคำสั่ง:
+## หลังติดตั้ง — ทดสอบสองนาที
+
 ```bash
+mkdir -p my-work/day1-workshop
+cd my-work/day1-workshop
+
 hermes setup
+hermes model
 hermes
 ```
-ในช่องสนทนาของ Hermes:
-```text
-อ่าน project/data/business.md แล้วสรุปชื่อธุรกิจ สินค้าที่ขาย และข้อมูลที่ยังไม่มี ห้ามเดาราคา
-```
-ผ่านเมื่อคำตอบระบุ Learning Studio Demo และราคา 990 บาท พร้อมบอกว่าไม่มีนโยบายคืนเงิน หาก tool อ่านไฟล์ไม่พร้อม ให้แก้ setup ก่อนเริ่ม Day 1
 
-การติดตั้งโปรแกรมกับค่าใช้ model เป็นคนละส่วน ไม่ถือว่าทุก provider ใช้งานฟรี
-VPS เป็นทางเลือกต่อยอด ไม่จำเป็นสำหรับ Workshop หลัก
+ในช่องสนทนาของ Hermes
+
+```text
+สร้างไฟล์ hello.md แล้วเขียนว่า "พร้อมเรียนแล้ว"
+จากนั้นเปิดไฟล์นั้นอ่านกลับมาให้ผมดู และบอกด้วยว่าใช้เครื่องมืออะไร
+```
+
+**ผ่านเมื่อ** · มีไฟล์ `hello.md` อยู่จริงในโฟลเดอร์ (เปิดดูด้วยตาเอง) และ Agent บอกได้ว่าเรียกเครื่องมืออะไร
+ถ้า tool อ่านเขียนไฟล์ยังไม่พร้อม ให้แก้ setup ก่อนเริ่ม Day 1
+
+## หมายเหตุ
+- การติดตั้งโปรแกรมกับค่าใช้ model เป็นคนละส่วน — ไม่ใช่ทุก provider ใช้งานฟรี
+- VPS เป็นทางเลือกต่อยอด ไม่จำเป็นสำหรับ Workshop หลัก
+- ไม่จำเป็นต้องเป็น Programmer ระดับ Advanced และไม่จำเป็นต้องเคยใช้ Hermes มาก่อน
+
+ติดปัญหา → [Troubleshooting](../resources/troubleshooting.md) แล้วแจ้งในแชทห้อง
