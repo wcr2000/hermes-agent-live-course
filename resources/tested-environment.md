@@ -1,17 +1,26 @@
 # บันทึกความพร้อมก่อนเปิดสอน
-สถานะ 2026-09-06: ตรวจโครงสร้างเอกสารและลิงก์ภายในแล้ว ยังไม่ทดสอบ Hermes runtime
+[กลับหน้าแรก](../README.md)
+
+**สถานะ 2026-09-16** — เนื้อหา Day 1–5 ตรงกับสไลด์แล้ว ส่วน runtime บางรายการยังรอซ้อม
 
 | รายการ | สถานะ |
 |---|---|
-| Outline หัวข้อใหญ่ Day 1–4 | พบจาก search index ของหน้าคอร์ส |
-| Outline รายละเอียดและ Day 5 | รอตรวจเทียบฉบับเต็ม |
-| Hermes release/commit สำหรับคลาส | ยังไม่เลือก |
-| Provider/model สำหรับคลาส | ยังไม่เลือก |
-| macOS / Windows WSL2 / Linux | ยังไม่ซ้อม |
-| Memory lab | ยังไม่ซ้อม |
-| Skill installation | ยังไม่เพิ่มไฟล์ติดตั้ง |
-| MCP server/configuration | ยังไม่เลือกและทดสอบ |
-| Native delegation | ยังไม่ซ้อม |
-| VPS/gateway/scheduler | แนวทางต่อยอด ยังไม่รวมขั้นตอน |
+| Outline และหัวข้อ Day 1–5 | ✅ ตรงกับสไลด์ของแต่ละคืนแล้ว |
+| เนื้อหา Day 1 · Fundamentals | ✅ ตรงกับสไลด์ |
+| เนื้อหา Day 2 · Session & Memory | ✅ ตรงกับสไลด์ |
+| เนื้อหา Day 3 · Tools, Skills & MCP | ✅ ตรงกับสไลด์ |
+| เนื้อหา Day 4 · Workflow & Multi-Agent | ✅ ตรงกับสไลด์ |
+| เนื้อหา Day 5 · AI Employee | ✅ ตรงกับสไลด์ |
+| Hermes release/commit สำหรับคลาส | ⬜ ยังไม่ตรึงเวอร์ชัน |
+| Provider/model สำหรับคลาส | ⬜ ยังไม่เลือก |
+| macOS / Windows WSL2 / Linux | ⬜ ยังไม่ซ้อมจากเครื่องสะอาดครบทุก OS |
+| Memory lab (Day 2) | ⬜ ยังไม่ซ้อม |
+| Skill installation (Day 3) | ⬜ ยังไม่เพิ่มไฟล์ติดตั้ง |
+| MCP server/configuration | ⬜ ยังไม่เลือกและทดสอบ — Day 3 สอนเป็นแนวคิด ยังไม่ลงมือต่อจริง |
+| Native delegation (Day 4) | ⬜ ยังไม่ซ้อม — Workshop 8 ออกแบบให้ทำแบบสวมบทบาทก่อน |
+| VPS / gateway / scheduler | ⬜ แนวทางต่อยอด ยังไม่รวมในขั้นตอน |
 
-ก่อนประกาศพร้อมสอน: บันทึกเวอร์ชันจริง วันที่ทดสอบ ผู้ทดสอบ OS ผลทุก checkpoint และแก้ README status ให้ตรง
+**ก่อนประกาศพร้อมสอน** ให้บันทึก: เวอร์ชันจริง · วันที่ทดสอบ · ผู้ทดสอบ · OS · ผลทุก checkpoint
+แล้วแก้สถานะในหน้านี้ให้ตรง
+
+> คำสั่งและ Configuration ของ Hermes อาจเปลี่ยนตามเวอร์ชัน — ตรวจกับ [เอกสารทางการ](sources.md) ควบคู่เสมอ

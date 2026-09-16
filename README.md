@@ -1,49 +1,71 @@
 # 🤖 Hermes Agent Live Course
 ## มาสร้างพนักงาน AI กันเถอะ
-**ผู้สอน: เฟิร์ส — Watchara / AI พารวย**
+**ผู้สอน: อ.วัชระ น้อยศรีพันธ์ (เฟิร์ส · AI พารวย)** · Live Online 5 คืน · คืนละ 2 ชั่วโมง · 20:00 – 22:00 น.
 
-คู่มือเปิดเรียนบน GitHub: อ่านแนวคิดสั้น ๆ → ทำตาม Workshop → ตรวจผล → ต่อเติมโปรเจกต์วันถัดไป
+Repo นี้คือคู่มือภาคลงมือทำของหลักสูตร — เนื้อหาในนี้เรียงตาม **สไลด์ของแต่ละคืนแบบหน้าต่อหน้า**
+สไลด์ใช้สำหรับเล่าและสาธิต ส่วน repo นี้เก็บ Prompt เต็ม ๆ ขั้นตอน และเกณฑ์ตรวจที่อ่านย้อนได้หลังคลาส
 
-> สถานะ: Repository design v0.1 — มีโครงบทเรียนและ Workshop brief ให้ปรับใช้ ยังไม่ใช่คู่มือติดตั้งและ integration ที่ผ่านการซ้อมครบทุกระบบ
-> หัวข้อ Day 1–4 ตรวจจากข้อมูลที่ค้นเจอของหน้าคอร์ส ส่วนรายละเอียดแต่ละ lab และ Day 5 เป็นข้อเสนอการจัดการเรียน รอตรวจเทียบ outline ฉบับเต็ม
+## ตารางเรียน
 
-**[เริ่มเตรียมเครื่อง](00-precourse/README.md) · [ภาพรวมคอร์ส](outlines/README.md) · [ติดปัญหา](resources/troubleshooting.md)**
+| คืน | วันที่ | บทเรียน | Session / Workshop | สิ่งที่ได้กลับบ้าน |
+|---|---|---|---|---|
+| 1 | 8 ก.ย. 2569 | [Hermes Fundamentals](day-01-fundamentals/README.md) | Session 1–2 · Workshop 1–2 | Hermes ที่ติดตั้งแล้ว + Personal AI Assistant |
+| 2 | 10 ก.ย. 2569 | [Session & Memory](day-02-session-memory/README.md) | Session 3–4 · Workshop 3–4 | `MEMORY.md` ที่จำเราได้ข้าม Session |
+| 3 | 14 ก.ย. 2569 | [Tools, Skills & MCP](day-03-tools-skills-mcp/README.md) | Session 5–6 · Workshop 5–6 + MCP | `report.md` จากงานจริง + `SKILL.md` ตัวแรก |
+| 4 | 16 ก.ย. 2569 | [Agent Workflow & Multi-Agent](day-04-agent-workflow/README.md) | Session 7–8 · Workshop 7–8 | `workflow.md` + `team.md` |
+| 5 | 18 ก.ย. 2569 | [Build Your AI Employee](day-05-ai-employee/README.md) | Master Workshop · Final Demo | `EMPLOYEE.md` + AI Employee ที่รันกับงานจริงได้ |
 
-## วันนี้เรียนอะไร
-| วัน | บทเรียน | ชิ้นงานปลายวัน |
-|---|---|---|
-| 1 | [Hermes Fundamentals](day-01-fundamentals/README.md) | สั่งงาน AI Assistant ให้สร้างสรุปงานจากข้อมูลจำลอง |
-| 2 | [Session & Memory](day-02-session-memory/README.md) | ผู้ช่วยทำงานต่อเนื่องและแยกข้อมูลถาวรออกจากบริบทชั่วคราว |
-| 3 | [Tools, Skills & MCP](day-03-tools-skills-mcp/README.md) | ผู้ช่วยใช้ไฟล์และขั้นตอนงานซ้ำได้ |
-| 4 | [Agent Workflow & Multi-Agent](day-04-agent-workflow/README.md) | แยกงานค้นข้อมูล ร่างคำตอบ และตรวจคุณภาพ |
-| 5 | [AI Employee & Demo](day-05-ai-employee/README.md) | ประกอบผู้ช่วยรับเรื่องลูกค้าจำลองเป็นโปรเจกต์จบ |
+**[เตรียมเครื่องก่อนเรียน](00-precourse/README.md) · [Outline เต็ม](outlines/README.md) · [คำสั่งที่ใช้บ่อย](resources/commands.md) · [ติดปัญหา](resources/troubleshooting.md)**
 
-## วิธีใช้สำหรับผู้เรียน
-1. เปิดหน้านี้และเลือกวันเรียน ไม่ต้องใช้ Git เป็นก็อ่านได้
-2. ดาวน์โหลด repo ผ่าน Code → Download ZIP แล้วแตกไฟล์ ถ้าจะให้ Hermes อ่านข้อมูลประกอบ
-3. เปิด README ของวันนั้น แล้วทำตามลำดับ อย่าเปิดทุกไฟล์พร้อมกัน
-4. เก็บงานของตนในโฟลเดอร์ `my-work/` ที่สร้างเอง งานนี้จะไม่รวมใน Git ตาม .gitignore
-5. เมื่อจบแต่ละช่วง ตรวจ checkpoint; ถ้าทำไม่ทันให้อ่านตัวอย่างผลลัพธ์แล้วกลับมาลองภายหลัง
+## เส้นทางของหลักสูตร
 
-## โปรเจกต์ต่อเนื่อง: AI Course Assistant
-ผู้ช่วยสำหรับธุรกิจคอร์สเรียนจำลอง รับคำถามจากผู้สนใจ อ่านข้อมูล ร่างคำตอบ และส่งงานให้คนตรวจ ไม่เชื่อมลูกค้าหรือรับเงินจริงใน Workshop
+```
+Agent → Memory → Tools → Skills → MCP → Workflow → Sub-agents → Multi-Agent → AI Employee
+```
 
-[ข้อมูลเริ่มต้น](project/README.md) · [Job brief](templates/employee-brief.md) · [แนวทางผู้สอน](instructor/README.md)
+แต่ละคืนต่อยอดจากคืนก่อนหน้าด้วย **โจทย์เดียวของตัวเอง** ไม่ใช่โจทย์แยกกันห้าข้อ
+จบคืนที่ 5 สิ่งที่ประกอบไว้ทั้งหมดจะกลายเป็น AI Employee หนึ่งตัวที่เอาไปใช้กับงานจริงต่อได้ทันที
 
-## เอกสารใน repo
-| โฟลเดอร์ | ใช้ทำอะไร |
+## วิธีใช้ repo นี้
+
+1. เปิดโฟลเดอร์ของคืนนั้น แล้วอ่าน `README.md` ก่อนเริ่มคลาส (5 นาทีพอ)
+2. ระหว่าง Workshop ให้เปิด `workshop.md` ไว้ข้าง ๆ — Prompt ทุกอันคัดลอกไปวางได้เลย
+3. จบแต่ละช่วงให้ตรวจ `checkpoint.md` ก่อนไปต่อ
+4. เก็บงานของตัวเองไว้ในโฟลเดอร์ `my-work/` ที่สร้างเอง (มีใน `.gitignore` แล้ว ไม่ถูกอัปขึ้น Git)
+5. ไม่ต้องใช้ Git เป็นก็อ่านได้ — กด **Code → Download ZIP** แล้วแตกไฟล์ก็พอ
+
+## โฟลเดอร์งานของแต่ละคืน
+
+Workshop ทุกคืนให้ Agent ทำงานอยู่ในโฟลเดอร์เดียว เพื่อจำกัดขอบเขตความเสียหาย
+
+```
+my-work/
+├── day1-workshop/      # Agent ตัวแรก + Personal Assistant
+├── day2-workshop/      # MEMORY.md
+├── day3-workshop/      # report.md + SKILL.md
+├── day4-workshop/      # workflow.md + team.md
+└── ai-employee/        # บ้านถาวรของ AI Employee (คืนที่ 5)
+```
+
+## เทมเพลตที่ใช้ระหว่างคลาส
+
+| ไฟล์ | ใช้คืนไหน |
 |---|---|
-| `00-precourse/` | เตรียมเครื่องและทดสอบก่อนเรียน |
-| `day-01-*` ถึง `day-05-*` | เปิดตามวัน แต่ละวันมี README, workshop, checkpoint |
-| `project/` | ข้อมูลจำลองร่วมทั้งคอร์ส |
-| `templates/` | แบบฟอร์มมอบหมายงานและบทเรียน |
-| `resources/` | คำสั่งอ้างอิง การแก้ปัญหา และแหล่งข้อมูล |
-| `slides/` | แผนภาพแนวคิดและรายการภาพที่ควรมีในสไลด์ |
-| `instructor/` | แนวทางสอนและเตรียม release; หาก repo public ส่วนนี้ก็ public ด้วย |
-| `outlines/` | แผนการเรียนและสถานะการตรวจเทียบต้นฉบับ |
+| [`templates/MEMORY.md`](templates/MEMORY.md) | คืนที่ 2 · Workshop 4 |
+| [`templates/SKILL.md`](templates/SKILL.md) | คืนที่ 3 · Workshop 6 |
+| [`templates/workflow.md`](templates/workflow.md) | คืนที่ 4 · Workshop 7 |
+| [`templates/team.md`](templates/team.md) | คืนที่ 4 · Workshop 8 |
+| [`templates/EMPLOYEE.md`](templates/EMPLOYEE.md) | คืนที่ 5 · Master Workshop |
+| [`templates/employee-brief.md`](templates/employee-brief.md) | คืนที่ 5 · ใบสรุปงานสำหรับหัวหน้างาน |
+
+## ยังไม่มีงานจริงมาลอง?
+
+ใช้ชุดข้อมูลจำลองใน [`project/`](project/README.md) แทนได้ทุกคืน — เป็นธุรกิจคอร์สเรียนสมมติ
+พร้อมข้อความลูกค้า Playbook และกรณีทดสอบ ใช้เกณฑ์ตรวจชุดเดียวกับงานจริง
 
 ## ความถูกต้องและเวอร์ชัน
-คำสั่งที่มีโอกาสเปลี่ยนให้อัปเดตใน GitHub พร้อมวันที่ทดสอบ ดู [บันทึกความพร้อม](resources/tested-environment.md)
-ทั้งสไลด์และ GitHub ต้องตรวจข้อเท็จจริงเหมือนกัน GitHub ช่วยให้แก้ไขและติดตามประวัติได้สะดวกขึ้น
 
-[หน้าคอร์ส](https://hub.itgenius.co.th/live/hermes-agent-build-your-own-ai-employee) · [แหล่งอ้างอิง](resources/sources.md)
+Hermes Agent เป็น Open Source ที่พัฒนาต่อเนื่อง คำสั่งและ Configuration อาจเปลี่ยนตามเวอร์ชัน
+ดูสถานะที่ทดสอบแล้วได้ที่ [บันทึกความพร้อม](resources/tested-environment.md) และตรวจกับ [เอกสารทางการ](resources/sources.md) ควบคู่เสมอ
+
+[หน้าคอร์ส](https://hub.itgenius.co.th/live/hermes-agent-build-your-own-ai-employee) · [แหล่งอ้างอิง](resources/sources.md) · [แนวทางผู้สอน](instructor/README.md)
