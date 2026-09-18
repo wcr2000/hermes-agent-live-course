@@ -15,6 +15,8 @@ Repo นี้คือคู่มือภาคลงมือทำของ
 | 4 | 16 ก.ย. 2569 | [Agent Workflow & Multi-Agent](day-04-agent-workflow/README.md) | Session 7–8 · Workshop 7–8 | `workflow.md` + `team.md` |
 | 5 | 18 ก.ย. 2569 | [Build Your AI Employee](day-05-ai-employee/README.md) | Master Workshop · Final Demo | `EMPLOYEE.md` + AI Employee ที่รันกับงานจริงได้ |
 
+**[Day 5 ฉบับเรียนเดี่ยว · ไม่ต้องมี Day 1–4](day-05-standalone/README.md)**
+
 **[เตรียมเครื่องก่อนเรียน](00-precourse/README.md) · [Outline เต็ม](outlines/README.md) · [คำสั่งที่ใช้บ่อย](resources/commands.md) · [ติดปัญหา](resources/troubleshooting.md)**
 
 ## เส้นทางของหลักสูตร
@@ -57,6 +59,7 @@ my-work/
 | [`templates/team.md`](templates/team.md) | คืนที่ 4 · Workshop 8 |
 | [`templates/EMPLOYEE.md`](templates/EMPLOYEE.md) | คืนที่ 5 · Master Workshop |
 | [`templates/employee-brief.md`](templates/employee-brief.md) | คืนที่ 5 · ใบสรุปงานสำหรับหัวหน้างาน |
+| [`day-05-standalone/starter-kit/`](day-05-standalone/starter-kit/ai-employee/) | Workshop วันเดียว · โฟลเดอร์พร้อมใช้ ไม่ต้องมีไฟล์จากคืนก่อน ๆ |
 
 ## ยังไม่มีงานจริงมาลอง?
 

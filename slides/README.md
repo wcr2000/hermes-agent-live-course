@@ -16,6 +16,7 @@
 | Day 4 · Workshop 7–8 | [day-04-agent-workflow/workshop.md](../day-04-agent-workflow/workshop.md) · [templates/workflow.md](../templates/workflow.md) · [templates/team.md](../templates/team.md) |
 | **Day 5** · Master Workshop | [day-05-ai-employee/workshop.md](../day-05-ai-employee/workshop.md) · [templates/EMPLOYEE.md](../templates/EMPLOYEE.md) |
 | Day 5 · Final Demo | [day-05-ai-employee/README.md](../day-05-ai-employee/README.md#final-demo--show-your-ai-employee-2140--2200) |
+| **Day 5 · ฉบับเรียนเดี่ยว** | [day-05-standalone/workshop.md](../day-05-standalone/workshop.md) · [starter-kit](../day-05-standalone/starter-kit/ai-employee/) |
 
 ## ไฟล์สไลด์ในโฟลเดอร์นี้
 
@@ -24,6 +25,7 @@
 | `Day 1 Hermes Fundamentals.pdf` | |
 | `Day 2 Session & Memory.pdf` | |
 | `Day 3 Tools, Skills & MCP.pdf` | |
+| `Day 5 Day One (Standalone).pptx` | เวอร์ชัน Workshop วันเดียว · [เอกสารประกอบ](../day-05-standalone/README.md) |
 
 ไฟล์ Day 4 และ Day 5 จะอัปโหลดหลังคลาสของคืนนั้น
 
